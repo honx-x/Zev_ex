@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_nowlist"
+            android:title="제보현황">
+
+        </item>
+        <item
+            android:id="@+id/nav_favorite"
+            android:title="즐겨찾기">
+        </item>
+        <item
+            android:id="@+id/nav_carinfo"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="수소차Info">
+        </item>
+        <item
+            android:id="@+id/nav_noice"
+            android:title="공지사항"></item>
+        <item
+            android:id="@+id/nav_infocenter"
+            android:title="고객센터"></item>
+
+        <item
+            android:id="@+id/nav_setup"
+            android:title="설정"></item>
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="영업관리">
+            <menu>
+                <item
+                    android:id="@+id/nav_a1_1"
+                    android:title="예약하기">
+
+                </item>
+                <item
+                    android:id="@+id/nav_a1_2"
+                    android:title="나의예약정보"></item>
+                <item
+                    android:id="@+id/nav_a1_3"
+                    android:title="나의예약이력"></item>
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="충전소관리">
+            <menu>
+                <item
+                    android:id="@+id/nav_a2_1"
+                    android:title="충전소탐색">
+
+                </item>
+                <item
+                    android:id="@+id/nav_a2_2"
+                    android:title="충전소목록"></item>
+                <item
+                    android:id="@+id/nav_a2_3"
+                    android:title="실시간제보"></item>
+                <item
+                    android:id="@+id/nav_a2_4"
+                    android:title="LIVE"></item>
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="all">
+        <item android:title="제품관리">
+            <menu>
+                <item
+                    android:id="@+id/nav_b1"
+                    android:title="제품재고관리">
+
+                </item>
+                <item
+                    android:id="@+id/nav_b2"
+                    android:title="제품별재고현황"></item>
+
+            </menu>
+
+        </item>
+    </group>
+</menu>

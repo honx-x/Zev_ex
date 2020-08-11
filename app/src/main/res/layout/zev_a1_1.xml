@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zev_A1_1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_vertical"
+                        android:paddingStart="10dp"
+                        android:text="● 방문충전소 지정"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#ffffff"
+                        android:hint="   성주충전소"
+
+                        android:textSize="13dp"></EditText>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_vertical"
+                        android:paddingStart="10dp"
+                        android:text="● 방문일시"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#ffffff"
+                        android:hint="   2020 - 12 - 12 (토) 19 : 00"
+                        android:textSize="13dp"></EditText>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_vertical"
+                        android:paddingStart="10dp"
+                        android:text="● 차량번호"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#ffffff"
+                        android:hint="   45주 3550"
+                        android:textSize="13dp"></EditText>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_vertical"
+                        android:paddingStart="10dp"
+                        android:text="● 결제정보 및 잔여포인트"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#ffffff"
+                        android:gravity="start"
+                        android:hint="   잔여포인트 : ***
+                        \n   결제정보 : ***"
+                        android:textSize="13dp"></EditText>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="길 안내"></Button>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="전화하기"></Button>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
